@@ -4,14 +4,14 @@ export const geminiApiCall = async (newMessages) => {
             return message.role !== 'model' // Remove all the assistant messages and keep the user messages only
         })
 
-        // console.log("Filtered Messages",filteredMessages);
+        console.log("Filtered Messages",newMessages);
         const response = await fetch('http://192.168.0.148:3000/gemini', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-                userMsg: filteredMessages,
+                userMsg: newMessages,
             }),
         });
 
