@@ -141,5 +141,9 @@ const styles = StyleSheet.create({
 
   downloadIcon: {
     marginTop: hp(1)
+  },
+  
+  userText:{
+    fontSize: hp(2)
   }
 })
