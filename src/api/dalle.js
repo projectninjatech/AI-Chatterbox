@@ -1,8 +1,10 @@
+import config from "../config/config";
+
 export const dalleApiCall = async (message) => {
     try {
 
         console.log("User message",message)
-        const response = await fetch('http://192.168.0.148:3000/dalle', {
+        const response = await fetch(config.dalle, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

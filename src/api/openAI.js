@@ -1,3 +1,5 @@
+import config from "../config/config";
+
 export const openaiApiCall = async (newMessages) => {
     try {
         // var filteredMessages = newMessages.filter(message => {
@@ -5,7 +7,7 @@ export const openaiApiCall = async (newMessages) => {
         // })
 
         // console.log("Filtered Messages",filteredMessages);
-        const response = await fetch('http://192.168.0.148:3000/gpt', {
+        const response = await fetch(config.gpt, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

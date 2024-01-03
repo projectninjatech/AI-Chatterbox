@@ -1,3 +1,5 @@
+import config from "../config/config";
+
 export const geminiApiCall = async (newMessages) => {
     try {
         var filteredMessages = newMessages.filter(message => {
@@ -5,7 +7,7 @@ export const geminiApiCall = async (newMessages) => {
         })
 
         console.log("Filtered Messages",newMessages);
-        const response = await fetch('http://192.168.0.148:3000/gemini', {
+        const response = await fetch(config.gemini, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
