@@ -1,3 +1,4 @@
+![AI Chatterbox](https://github.com/projectninjatech/AI-Chatterbox/blob/developer/assets/thumbnail.png)
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
@@ -50,10 +51,20 @@ This is one way to run your app — you can also run it directly from within And
 
 Now that you have successfully run the app, let's modify it.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
+1. Open `App.js` in your text editor of choice and edit some lines.
 2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
 
    For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+
+## Step 4: Start your AI Model API Server
+
+1. Go to [**AI Models API**](https://github.com/projectninjatech/AI-Models-API)
+2. Clone the repository
+3. Install the dependencies
+4. Start the NodeJS server
+5. Go to your React Native App and start chatting with your AI Models
+
+**Note: All the steps are mentioned in the repository README.**
 
 ## Congratulations! :tada:
 
