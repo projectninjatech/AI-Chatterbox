@@ -1,3 +1,4 @@
+![AI Chatterbox](https://github.com/projectninjatech/AI-Chatterbox/blob/developer/assets/thumbnail.png)
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
